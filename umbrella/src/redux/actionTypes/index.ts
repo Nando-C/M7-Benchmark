@@ -1,0 +1,1 @@
+export const FETCH_FORECAST: string = 'FETCH_FORECAST'
