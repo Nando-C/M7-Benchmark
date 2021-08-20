@@ -1,8 +1,8 @@
 import { createStore } from "redux";
-import { Forecast } from "../../types/Forecast";
+import { IForecast } from "../../types/Forecast";
 import Reducer from "../reducers";
 
-const initialState: Forecast = {
+const initialState: IForecast = {
     cod: '',
     message: 0,
     cnt: 0,

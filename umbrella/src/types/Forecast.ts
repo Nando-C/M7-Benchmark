@@ -1,4 +1,4 @@
-export interface Forecast {
+export interface IForecast {
     cod:     string;
     message: number;
     cnt:     number;
