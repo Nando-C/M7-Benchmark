@@ -8,7 +8,7 @@ export const fetchForecastAction = (cityName:string) => {
 
         const APIKey = process.env.OPEN_WEATHER_API_KEY
         try {
-            let resp = await fetch(`api.openweathermap.org/data/2.5/forecast?q=${cityName}&appid=${APIKey}`)
+            let resp = await fetch(`api.openweathermap.org/data/2.5/forecast?q=${cityName}&cnt=5&units=metric&appid=${APIKey}`)
             if (resp.ok) {
                 let forecast = await resp.json()
 
